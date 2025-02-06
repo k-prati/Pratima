@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratima Kamble - Developer & UI/UX Designer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #086d68;
+        }
+        header {
+            background: linear-gradient(135deg, #2d3e50, #42b883);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?technology') center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-top: 70px;
+            box-shadow: inset 0 0 0 2000px rgba(13, 80, 66, 0.97);
+        }
+        .hero h2 {
+            font-size: 40px;
+            margin: 10px 0;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgb(28, 121, 41);
+            object-fit: cover;
+        }
+        .btn {
+            display: inline-block;
+            background: #338d64;
+            color: rgb(236, 221, 221);
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #2d3e50;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .about-me {
+            background: rgb(92, 181, 114);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .about-me:hover {
+            transform: scale(1.05);
+            color: #2d3e50;
+        }
+        .skill-card {
+            background: rgb(92, 181, 114);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .skill-card:hover {
+            transform: scale(1.05);
+            color: #2d3e50;
+        }
+        .project-card {
+            background: rgb(92, 181, 114);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+            color: #2d3e50;
+        }
+        .social-links a {
+            color: #42b883;
+            font-size: 24px;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            color: #2d3e50;
+        }
+        footer {
+            background: #2d3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pratima Kamble</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <img src="dp.png" alt="Pratima Kamble">
+    <h2>Hi, I’m Pratima</h2>
+    <p>A passionate Developer and UI/UX Designer.</p>
+    <a href="#projects" class="btn">View My Work</a>
+</div>
+
+<div id="about" class="section">
+    <h2>ABOUT ME</h2>
+    <div class="about-me">
+    <h3>I am Pratima Kamble, a passionate and dedicated IT professional with expertise in software development,
+         web technologies, and cloud computing with a strong foundation in programming and UI/UX design, 
+         I strive to create innovative, efficient, and user-friendly solutions. My technical skills span across web development,
+          database management, and programming languages.</h3></div>
+</div>
+
+<div id="skills" class="section">
+    <h2>SKILLS</h2>
+    <div class="skill-card"><h3> Web Development</h3>
+    <p> HTML, CSS, JavaScript, REACT.JS, LitJS </p></div>
+    <div class="skill-card"><h3> Database Management</h3>
+    <p> MySQL, MongoDB, Redis</p></div>
+    <div class="skill-card"><h3> Programming Languages</h3>
+    <p>Python, Java, DotNet, C, C++, C# </p></div>
+</div>
+
+<div id="projects" class="section">
+    <h2>PROJECTS</h2>
+    <div class="project-card">
+        <h3>New Life Fitness Website</h3>
+        <p>A website for a gym providing online registration and fitness information.</p>
+    </div>
+    <div class="project-card">
+        <h3><a href="https://github.com/k-prati/e-waste-Management-system.git">E-Waste Management System</a></h3>
+        <p>Automating the selling of electronic waste.</p>
+    </div>
+    <div class="project-card">
+        <h3><a href="https://github.com/k-prati/blog-spot.git">Author's website</a></h3>
+        <p>Created a website for an client for their social interactions and review.</p>
+    </div>
+    <div class="project-card">
+        <h3><a href="https://github.com/k-prati/food-website.git">Food Website</a></h3>
+        <p>Delivering food online.</p>
+    </div>
+    <div class="project-card">
+        <h3>Case study and UI Development using Figma</h3>
+        <p>Designed and developed a UI for 
+            <a href="https://www.figma.com/design/AcjXcMYh9y7tVcTzBEETbQ/Food?node-id=0-1&m=dev&t=uFzXftWXWcSo6wSP-1">Food Delivery App,</a> 
+            <a href="https://www.figma.com/design/JJCGAzJ8PLCUFwVcNAQRRZ/Untitled?node-id=0-1&m=dev&t=DXzKQWbGTFT3AHP5-1">Café App,</a> 
+            <a href="https://www.figma.com/design/Mk2admgF4q2BZ98pg4XMg8/assi1_firstApp?m=auto&t=m9ohjawgo6wQb5Mq-7">Dummy Instagram,</a>
+            <a href="https://www.figma.com/design/Wh9zXA3TvDx9YLAIkXs2os/Mobile-App-Signup-Flow?m=auto&t=m9ohjawgo6wQb5Mq-6">Mobile app login page</a></p>
+    </div>
+</div>
+
+<div id="contact" class="section">
+    <h2>Contact</h2>
+    <div class="social-links">
+        <a href="http://linkedin.com/in/pratima-kamble-b71b88290" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/k-prati" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://facebook.com/share/18h7s9yBwj/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/notpratimaa?igsh=MWJxa28zdmozejRocg==i" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>Navi Mumbai, Maharashtra, India</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 Pratima Kamble. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
